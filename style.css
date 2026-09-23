@@ -1,0 +1,137 @@
+/* Estilo general de la página */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #caaae4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+/* Encabezado */
+
+h1 {
+    background-color: #511176;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+/* Menú */
+
+nav {
+    background-color: #8c09b1;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 13px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido */
+
+h2 {
+    color: #19558c;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+p, ul {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+p, ul, h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+img {
+    width: 250px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Formulario */
+
+.formulario {
+    background-color: rgb(228, 212, 238);
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #19558c;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.formulario label,
+.formulario p {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 18px;
+}
+
+.formulario input[type="text"],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #9d00ff;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario input[type="checkbox"],
+.formulario input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Botón */
+
+.formulario button {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px;
+    background-color: #a00ec4;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #aa00ff;
+}

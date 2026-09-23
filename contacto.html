@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Y a ti, ¿qué te gusta?</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Y a ti, ¿qué te gusta?</h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="escolar.html">Información escolar</a>
+        <a href="comunidad.html">Mi comunidad</a>
+        <a href="gustos.html">Mis gustos</a>
+        <a href="contacto.html">Cuestionario</a>
+    </nav>
+
+    <section class="formulario">
+
+        <h2>¡Quiero conocerte!</h2>
+
+        <form>
+
+            <label for="nombre">¿Cómo te llamas?</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <p>¿Qué tipo de música te gusta?</p>
+
+            <label>
+                <input type="checkbox" name="musica" value="pop">
+                Pop
+            </label>
+
+            <label>
+                <input type="checkbox" name="musica" value="rock">
+                Rock
+            </label>
+
+            <label>
+                <input type="checkbox" name="musica" value="kpop">
+                K-pop
+            </label>
+
+            <label>
+                <input type="checkbox" name="musica" value="reggaeton">
+                Reggaetón
+            </label>
+
+            <p>¿Qué prefieres ver?</p>
+
+            <label>
+                <input type="radio" name="ver" value="peliculas">
+                Películas
+            </label>
+
+            <label>
+                <input type="radio" name="ver" value="series">
+                Series
+            </label>
+
+            <p>¿Cuál es tu color favorito?</p>
+
+            <select name="color">
+                <option value="">Selecciona uno</option>
+                <option value="azul">Azul</option>
+                <option value="rosa">Rosa</option>
+                <option value="morado">Morado</option>
+                <option value="verde">Verde</option>
+                <option value="negro">Negro</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="comida">¿Cuál es tu comida favorita?</label>
+            <input type="text" id="comida" name="comida">
+
+            <label for="pasatiempo">¿Qué haces en tu tiempo libre?</label>
+            <textarea id="pasatiempo" name="pasatiempo" rows="4"></textarea>
+
+            <button type="submit">Enviar respuestas </button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
