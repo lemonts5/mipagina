@@ -135,3 +135,36 @@ img {
 .formulario button:hover {
     background-color: #aa00ff;
 }
+/* Tabla */
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(210, 166, 224);
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: center;
+    font-size: 17px;
+}
+
+th {
+    background-color: #5e198c;
+    color: white;
+}
+
+tr:hover {
+    background-color: #a424cb;
+}
+
+/* Video */
+
+video {
+    display: block;
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
